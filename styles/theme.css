@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* This is based on the centred stretching background image from class*/
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+	color:black; /* !!! */
+}
+
+#container {
+    margin: 0 auto;
+    text-align: left;
+    height: 1200px;
+	width: 1200px;
+    background: url(../pagefurn/conemara.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#leftwrap {
+  padding: 10px;
+  margin-top: 20px;
+  float: left;
+  width: 450px;
